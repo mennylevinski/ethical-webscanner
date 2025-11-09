@@ -1,2 +1,28 @@
-# ethical-web-scanner
-Cross-platform Interactive Web Vulnerability Scanner for Ethical Diagnostics.
+# Ethical Web Scanner
+
+Cross-platform Interactive Web Vulnerability Scanner.
+Built for **Ethical Diagnostics** and **Security Awareness**.
+
+---
+
+## 🔍 Features
+
+### Checks performed (for the requested URL):
+- HTTP request & response metadata (status code, URL, final URL after redirects, content-type, server header, content-length)
+- Security headers presence and values (X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security, Content-Security-Policy)
+- Cookie analysis (parses Set-Cookie headers and looks for Secure, HttpOnly, SameSite)
+- Basic reflected XSS pattern search (passive pattern matching only)
+- Simple injection-like pattern search in body (SQLi-like keywords) — passive only
+- TLS / certificate info for https targets: certificate subject, issuer, validity, and TLS protocol version
+- Report includes a full checklist section describing each check and its result
+
+---
+
+## ⚙️ Installation
+
+### 1️ Requirements
+- Python **3.8+**
+- Works on **Windows**, **Linux** and **macOS**
+- No external packages required
+
+### 2️ Download & Run
