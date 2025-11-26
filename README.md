@@ -37,8 +37,6 @@ Use responsibly and in compliance with your local governance.
   pip install requests
 
 ### 2️ Download & Run
-- Windows: `python light-net-scanner.py`
-- Linux: `./light-net-scanner.py`
 
 ---
 
